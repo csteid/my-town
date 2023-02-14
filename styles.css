@@ -1,0 +1,80 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+}
+.hero{
+    background-image: url("images/hi-hero.jpeg");
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    color: #1D3557;
+    padding-top: 20px;
+    letter-spacing: 1px;   
+}
+.hero-text{
+    background-color:#A8DADC;
+    width: 400px;
+    height:150px;
+    margin: 200px auto;
+    opacity:85%;    
+    padding: 5px 0;
+    border: 1px solid #E63946;
+}
+.title{
+    font-family: 'Rock Salt', cursive;
+    letter-spacing: 8px;
+    color:#1D3557;
+}
+.activities-text{
+    margin:20px;
+}
+.activities{
+    background-color: #A8DADC;  
+    padding: 15px;
+    color:#1D3557;
+    letter-spacing: 1px;    
+}
+.activity-details{  
+    display: flex;
+    justify-content: space-around;   
+}
+.free{
+    color: #E63946;
+}
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 1px solid #E63946;
+}
+.guide{
+    background-image: url("images/hi-waves.jpeg");
+    background-size: cover;
+    height: 300px;
+    color: #1D3557;
+    padding-top: 80px;
+   letter-spacing: 1px;   
+}
+.guide-card{
+    background-color:#A8DADC;
+    opacity:85%;
+    display:flex;
+    width: 400px;
+    height:150;
+    border: 1px solid #E63946;
+    margin: 10px auto;
+    padding: 10px;   
+}
+.headshot{
+    margin-top:20px;
+   
+}
